@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#YOLO
+
+# Datasets
+datasets/
+data/
+*.zip
+
+# YOLOv8 Training Outputs
+runs/
+/runs
+
+# Model Weights
+*.pt
+!best.pt  
+# VS Code settings
+.vscode/
